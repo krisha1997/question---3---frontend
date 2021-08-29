@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Product listing Page</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">  
+        <div class="row">
+            <div class="col">
+                <div class="slider">
+                    <div class="preview">
+                        <img src="t-shirt.png" id="imagebox" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="content">
+                    <p>Green Cotton Tshirt</p>
+                    <p style="color: grey;">Shirts</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <br>
+                    <p>Rs 400&nbsp;&nbsp;<strike>Rs 800</strike>&nbsp;&nbsp;<span style="color:rgb(18, 124, 83);">50% off</span></p>
+                    <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat maximus fermentum.Donec porta faucibus interdum. Praesent id porta purus, nec eleifend mauris. Maecenas et consectetur purus.Dolor sitteerr officus offfactussu.</p>
+                   <p style="font-size: 14px;"><strong>color</strong><span style="padding-left: 70px;">Green</span>
+                   <br><strong>Availability</strong><span style="padding-left: 30px;">3 in stock</span></p>
+                   <p style="font-size: 14px;"><strong>Select size:</strong><span style="padding-left: 40px;"><input type="radio" id="html" name="fav_language" value="HTML">
+                      <label for="html">small</label>
+                      <input type="radio" id="css" name="fav_language" value="CSS">
+                      <label for="css">medium</label>
+                      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                      <label for="javascript">large</label>
+                    </span></p>
+                   <p style="font-size: 14px;"><strong>Quantity</strong><span style="padding-left: 40px;"><select id="cars" name="cars">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select></span></p>
+                </div>
+                <div id="outer">
+                    <button type="submit" onClick="" style="background-color:  #0057D9; color: white;">Buy Now</button>
+                    <button type="submit" onClick="" style="background-color: grey; color: black;">Add to Cart</button>
+                </div> 
+            </div>
+        </div>
+    <script>
+        function clickme(smallImg)
+        {
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src;
+        }
+    </script>
+</body>
+</html>
